@@ -1,0 +1,20 @@
+security:
+  oauth2:
+    client:
+      client-id: 66018c07996a25fa614e
+      client-secret: 854492fc4e64903e1f7014957f3ff563f9f95ad6
+      scope: read,write
+      auto-approve-scopes: '.*'
+github:
+  client:
+    clientId: 66018c07996a25fa614e
+    clientSecret: 854492fc4e64903e1f7014957f3ff563f9f95ad6
+    accessTokenUri: https://github.lbg.eu-gb.bluemix.net/login/oauth/access_token
+    userAuthorizationUri: https://github.lbg.eu-gb.bluemix.net/login/oauth/authorize
+    clientAuthenticationScheme: form
+  resource:
+    userInfoUri: https://github.lbg.eu-gb.bluemix.net/user
+
+logging:
+  level:
+    org.springframework.security: DEBUG
